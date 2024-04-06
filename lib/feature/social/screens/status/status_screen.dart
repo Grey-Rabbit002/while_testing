@@ -185,6 +185,7 @@ class _StatusScreenStateState extends ConsumerState<StatusScreenState> {
                             statusService.postStatus(
                                 imageFile, _statusTextController.text, context);
                           },
+       
                         ),
                 ],
               );
